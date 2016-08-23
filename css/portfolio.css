@@ -2,6 +2,20 @@ body {
   font-family: 'Pompiere', cursive;
 }
 
+/*Header*/
+.icon-home2:before {
+  content: "\e901";
+  font-size: 1.5em;
+  padding: 0px 0px 10px 0px;
+}
+
+.icon-home2:hover {
+  color: #ED0000;
+  font-size: 1.1em;
+  transition: all 1s ease-in-out;
+  border-radius: 100%;
+}
+
 header {
   font-family: 'Berkshire Swash', cursive;
   padding: 20px;
@@ -84,7 +98,7 @@ margin-bottom: 50px;*/
   top: -100px;
   width: 100%;
   font-size: 450%;
-  color: #FFD000;
+  color: yellow;
   text-shadow: 3px 3px 5px #000000;
 }
 
@@ -97,11 +111,47 @@ margin-bottom: 50px;*/
   width: 100%;
   font-size: 250%;
   color: black;
-  /*text-shadow: 1px 1px 1px #DEDEDE;*/
+  text-shadow: 1px 1px 1px #DEDEDE;
 }
 /*____________________________________________________________________________*/
 /*portfolio*/
 
+.projects {
+  color: #BACFD6;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.75em;
+  padding: 60px;
+  margin: auto;
+  background-color: #1A1A1A;
+}
+
+.projects h2 {
+  font-family: 'Exo', sans-serif;
+  color: yellow;
+  font-size: 2em;
+}
+
+.projects h3 {
+  font-family: 'Berkshire Swash', cursive;
+  margin: auto;
+  padding: 30px;
+  line-height: 2.5;
+  color: red;
+}
+
+.projects img {
+  width: 300px;
+  height: 300px;
+  padding: 0 30px 30px 30px;
+  left: 0px;
+}
+
+.projects p {
+  margin: auto;
+  padding: 0px 30px 30px 30px;
+  width: 750px;
+}
 
 /*____________________________________________________________________________*/
 /*footer*/
@@ -127,17 +177,6 @@ margin-bottom: 50px;*/
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
-
-/*Header*/
-.icon-home2:before {
-  content: "\e901";
-}
-
-.icon-home2:hover {
-  color: #ED0000;
-}
-
-
 
 /*Footer*/
 .icon-github:before {

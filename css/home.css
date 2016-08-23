@@ -2,6 +2,20 @@ body {
   font-family: 'Pompiere', cursive;
 }
 
+/*Header*/
+.icon-home2:before {
+  content: "\e901";
+  font-size: 1.5em;
+  padding: 0px 0px 10px 0px;
+}
+
+.icon-home2:hover {
+  color: #ED0000;
+  font-size: 1.1em;
+  transition: all 1s ease-in-out;
+  border-radius: 100%;
+}
+
 header {
   font-family: 'Berkshire Swash', cursive;
   padding: 20px;
@@ -68,7 +82,7 @@ margin-bottom: 50px;*/
   background: url('../images/mountain_dusting.jpg') no-repeat center center fixed;
   background-size: cover;
   text-align: center;
-  padding: 200px 0;
+  padding: 170px 0px;
   margin-bottom: 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -80,16 +94,12 @@ margin-bottom: 50px;*/
   margin: auto;
   position: center;
   display: block;
-  padding: 10px;
+  padding: 30px;
   border-radius: 25%;
-  height: 100%;
-  z-index: 20;
-  border: none;
-  box-shadow: 0 0 10px black inset;
-}
-
-.profile-about {
-  padding: 0%;
+  width: 35%;
+  height: 35%;
+  z-index: 99;
+  box-shadow: 0px 0px 50px black inset;
 }
 
 #container {
@@ -97,10 +107,10 @@ margin-bottom: 50px;*/
   left: 0;
   position: relative;
   text-align: center;
-  top: -100px;
+  top: -50px;
   width: 100%;
   font-size: 450%;
-  color: #FFD000;
+  color: yellow;
   text-shadow: 3px 3px 5px #000000;
 }
 
@@ -109,7 +119,7 @@ margin-bottom: 50px;*/
   left: 0;
   position: relative;
   text-align: center;
-  top: -90px;
+  top: -40px;
   width: 100%;
   font-size: 250%;
   color: black;
@@ -117,16 +127,8 @@ margin-bottom: 50px;*/
 }
 
 /*____________________________________________________________________________*/
-/*kinan-whyte.css*/
+/*footer*/  /*Icomoon standard css setup*/
 
-
-
-
-
-
-/*____________________________________________________________________________*/
-
-/*Icomoon standard css setup*/
 @font-face {
     font-family: 'icomoon';
     src: url(../fonts/icomoon.eot);
@@ -146,15 +148,6 @@ margin-bottom: 50px;*/
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-}
-
-/*Header*/
-.icon-home2:before {
-  content: "\e901";
-}
-
-.icon-home2:hover {
-  color: #ED0000;
 }
 
 /*Footer*/
