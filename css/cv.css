@@ -1,26 +1,25 @@
 body {
-  font-family: 'Pompiere', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 /*Header*/
-.icon-home2:before {
-  content: "\e901";
+.icon-earth:before {
+  content: "\e9ca";
   font-size: 1.5em;
-  padding: 0px 0px 10px 0px;
+  margin: 14px 0 14px 14px;
+  display: inline-block;
 }
 
-.icon-home2:hover {
+.icon-earth:hover {
   color: #ED0000;
   font-size: 1.1em;
   transition: all 1s ease-in-out;
-  border-radius: 100%;
 }
 
 header {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
   padding: 20px;
-  background-color: black;
-  /*opacity: 0.5;*/
+  background-color: #012d42;
   height: 75px;
 }
 
@@ -29,13 +28,11 @@ header a {
   list-style-type: none;
   color: white;
   font-size: 175%;
-  /*margin: 30px;*/
   padding: 1.5px;
 }
 
 h1 {
   display: inline-block;
-  /*background: url("../fonts/icomoon.svg") no-repeat;*/
   text-indent: -9999px;
   width: 10px;
   margin: 10px;
@@ -51,56 +48,28 @@ li {
   padding: 21.5px;
 }
 
-.kinan-whyte:hover {
+.projects:hover {
+  color: #00B0EB;
+}
+
+.about:hover {
   color: #36F5AF;
 }
+
 .cv:hover {
   color: #FF534A;
 }
-.portfolio:hover {
-  color: #00B0EB;
+
+.photos:hover {
+  color: #faff00;
 }
+
 .blog:hover {
   color: #FFA60D;
 }
+
 .connect:hover {
-  color: purple;
-}
-
-#hero {
-  background: url('../images/china_snowpeaks.jpg') no-repeat center center fixed;
-  background-size: cover;
-  text-align: center;
-  padding: 250px 0;
-  margin-bottom: 0px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#container {
-  font-family: 'Exo', sans-serif;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -100px;
-  width: 100%;
-  font-size: 450%;
-  color: yellow;
-  text-shadow: 3px 3px 5px #000000;
-}
-
-#tagline {
-  font-family: 'Berkshire Swash', cursive;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -90px;
-  width: 100%;
-  font-size: 250%;
-  color: black;
-  text-shadow: 1px 1px 1px #DEDEDE;
+  color: #ad00ff;
 }
 /*____________________________________________________________________________*/
 /*cv*/

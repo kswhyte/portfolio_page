@@ -1,26 +1,25 @@
 body {
-  font-family: 'Pompiere', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 /*Header*/
-.icon-home2:before {
-  content: "\e901";
+.icon-earth:before {
+  content: "\e9ca";
   font-size: 1.5em;
-  padding: 0px 0px 10px 0px;
+  margin: 14px 0 14px 14px;
+  display: inline-block;
 }
 
-.icon-home2:hover {
+.icon-earth:hover {
   color: #ED0000;
   font-size: 1.1em;
   transition: all 1s ease-in-out;
-  border-radius: 100%;
 }
 
 header {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
   padding: 20px;
-  background-color: black;
-  /*opacity: 0.5;*/
+  background-color: #012d42;
   height: 75px;
 }
 
@@ -29,13 +28,11 @@ header a {
   list-style-type: none;
   color: white;
   font-size: 175%;
-  /*margin: 30px;*/
   padding: 1.5px;
 }
 
 h1 {
   display: inline-block;
-  /*background: url("../fonts/icomoon.svg") no-repeat;*/
   text-indent: -9999px;
   width: 10px;
   margin: 10px;
@@ -51,32 +48,29 @@ li {
   padding: 21.5px;
 }
 
-.kinan-whyte:hover {
+.projects:hover {
+  color: #00B0EB;
+}
+
+.about:hover {
   color: #36F5AF;
 }
+
 .cv:hover {
   color: #FF534A;
 }
-.portfolio:hover {
-  color: #00B0EB;
+
+.photos:hover {
+  color: #faff00;
 }
+
 .blog:hover {
   color: #FFA60D;
 }
+
 .connect:hover {
-  color: purple;
+  color: #ad00ff;
 }
-
-/*header li{
-  display: inline-block;
-  padding: 21.5px;
-}*/
-
-/*background: url('../images/park.jpg') no-repeat;
-background-size: cover;
-text-align: center;
-padding: 50px 0;
-margin-bottom: 50px;*/
 
 #hero {
   background: url('../images/snow-mountain.jpg') no-repeat center center fixed;
@@ -117,7 +111,7 @@ margin-bottom: 50px;*/
 /*connect*/
 
 .contact {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
   background-color: #54F7AE;
   color: #636363;;
   line-height: 2;
@@ -140,13 +134,14 @@ margin-bottom: 50px;*/
   color: white;
   height: 50px;
   padding: 60px 0 0 0;
+  display: inline-block;
 }
 
 .phone {
   color: white;
   fill: currentColor;
   height: 50px;
-
+  display: inline-block;
 }
 
 img.contact {
@@ -160,7 +155,6 @@ img.contact {
 }
 
 h2.contact {
-  font-family: 'Exo', sans-serif;
   color: black;
   font-size: 2em;
   padding: 30px 0;
@@ -175,8 +169,8 @@ img.healing-staff {
   padding: 0 30px 30px 30px;
   margin: auto;
   left: 0
-  position: center;
-  /*display: inline-block;*/
+  position: left;
+  display: inline-block;
 }
 
 .contact p {

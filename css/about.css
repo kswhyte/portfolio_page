@@ -1,26 +1,25 @@
 body {
-  font-family: 'Pompiere', cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*Header*/
-.icon-home2:before {
-  content: "\e901";
+.icon-earth:before {
+  content: "\e9ca";
   font-size: 1.5em;
-  padding: 0px 0px 10px 0px;
+  margin: 14px 0 14px 14px;
+  display: inline-block;
 }
 
-.icon-home2:hover {
+.icon-earth:hover {
   color: #ED0000;
   font-size: 1.1em;
   transition: all 1s ease-in-out;
-  border-radius: 100%;
 }
 
 header {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
   padding: 20px;
-  background-color: black;
-  /*opacity: 0.5;*/
+  background-color: #012d42;
   height: 75px;
 }
 
@@ -29,13 +28,11 @@ header a {
   list-style-type: none;
   color: white;
   font-size: 175%;
-  /*margin: 30px;*/
   padding: 1.5px;
 }
 
 h1 {
   display: inline-block;
-  /*background: url("../fonts/icomoon.svg") no-repeat;*/
   text-indent: -9999px;
   width: 10px;
   margin: 10px;
@@ -51,92 +48,82 @@ li {
   padding: 21.5px;
 }
 
-.kinan-whyte:hover {
+.projects:hover {
+  color: #00B0EB;
+}
+
+.about:hover {
   color: #36F5AF;
 }
+
 .cv:hover {
   color: #FF534A;
 }
-.portfolio:hover {
-  color: #00B0EB;
+
+.photos:hover {
+  color: #faff00;
 }
+
 .blog:hover {
   color: #FFA60D;
 }
+
 .connect:hover {
-  color: purple;
+  color: #ad00ff;
 }
 
-/*header li{
-  display: inline-block;
-  padding: 21.5px;
-}*/
-
-/*background: url('../images/park.jpg') no-repeat;
-background-size: cover;
-text-align: center;
-padding: 50px 0;
-margin-bottom: 50px;*/
-
-#hero {
-  background: url('../images/Spiral_plant.jpg') no-repeat center center fixed;
-  background-size: cover;
-  text-align: center;
-  padding: 250px 0;
-  margin-bottom: 0px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#container {
-  font-family: 'Exo', sans-serif;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -100px;
-  width: 100%;
-  font-size: 450%;
-  color: yellow;
-  text-shadow: 3px 3px 5px #000000;
-}
-
-#tagline {
-  font-family: 'Berkshire Swash', cursive;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -90px;
-  width: 100%;
-  font-size: 250%;
-  color: white;
-  text-shadow: 3px 3px 3px black;
-}
 /*____________________________________________________________________________*/
 /*kinan-whyte*/
+
+#container {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  top: -50px;
+  width: 100%;
+  font-size: 250%;
+  color: #636363;
+  line-height: 1.25;
+  display: block;
+  margin: 60px 0;
+}
+
+#hero {
+  background: white;
+}
+
+#profile {
+  display: block;
+  background: white;
+  margin: auto;
+  position: center;
+  border-radius: 50%;
+  width: 22%;
+  height: 22%;
+  z-index: 99;
+  box-shadow: 0px 0px 20px black;
+}
 
 article {
   display: inline-block;
 }
 
 .intro {
-  color: #BACFD6;
+  font-family: 'Dosis', sans-serif;
+  color: #636363;
   line-height: 1.5;
   text-align: center;
   font-size: 1.75em;
   padding: 60px;
-  margin: auto;
-  background-color: black
+  margin: 60px 0 0 0;
+  background-color: #54F7AE;
 }
 
 .hyperlink {
-  color: #4AE8CE;
+  color: navy;
 }
 
-/*.kinan-whyte {
-  vertical-align: top;
-}*/
+/*___________________________________*/
+/*strengths*/
 
 section article {
   margin: auto;
@@ -145,127 +132,99 @@ section article {
   background-color: white;
 }
 
+/*.strengths {
+  margin: auto;
+  position: center;
+  display: block;
+}*/
+
 .top-left-achiever {
   text-align: left;
-}
-
-.top-left-achiever h3 {
-  font-family: 'Berkshire Swash', cursive;
-  text-align: center;
-  font-size: 2.5em;
-  margin: 30px 30px 0px 30px;
-  vertical-align: top;
-}
-
-.top-left-achiever img {
-  width: 300px;
-  height: 300px;
-  padding: 30px 0px 30px 30px;
-  left: 0px;
-}
-
-.top-left-achiever p {
-  color: #636363;
-  width: 220px;
-  height: 300px;
-  font-size: 1.5em;
-  text-align: left;
-  margin: 30px 0 0 0;
-  line-height: 1.2;
-  display: inline-block;
-  padding: 0px 30px;
 }
 
 .top-right-command {
   text-align: right;
 }
 
-.top-right-command h3 {
-  font-family: 'Berkshire Swash', cursive;
-  text-align: center;
-  font-size: 2.5em;
-  margin: 30px 30px 0px 30px;
-  vertical-align: top;
-}
-
-.top-right-command img {
-  width: 300px;
-  height: 300px;
-  padding: 30px 0px 30px 30px;
-  left: 0px;
-}
-
-.top-right-command p {
-  color: #636363;
-  width: 220px;
-  height: 300px;
-  font-size: 1.5em;
-  text-align: left;
-  margin: 30px 0 0 0;
-  line-height: 1.2;
-  display: inline-block;
-  padding: 0px 30px;
-}
-
 .bottom-left-ideation {
   text-align: left;
-}
-
-.bottom-left-ideation h3 {
-font-family: 'Berkshire Swash', cursive;
-text-align: center;
-font-size: 2.5em;
-margin: 10px 30px 0px 30px;
-vertical-align: top;
-}
-
-.bottom-left-ideation img {
-  width: 300px;
-  height: 300px;
-  padding: 30px 0px 30px 30px;
-  left: 0px;
-}
-
-.bottom-left-ideation p {
-  color: #636363;
-  width: 220px;
-  height: 300px;
-  font-size: 1.5em;
-  text-align: left;
-  margin: 30px 0px 50px 0px;
-  line-height: 1.2;
-  display: inline-block;
-  padding: 0px 30px 50px 30px;
 }
 
 .bottom-right-restorative {
   text-align: right;
 }
 
-.bottom-right-restorative h3 {
-  font-family: 'Berkshire Swash', cursive;
+.strengths h3 {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
-  font-size: 2.5em;
-  margin: 10px 30px 0px 30px;
+  font-size: 250%;
   vertical-align: top;
 }
 
-.bottom-right-restorative img {
-  width: 300px;
-  height: 300px;
-  padding: 30px 0px 30px 30px;
+.top-left-achiever h3 {
+  margin: 30px 30px 0px 30px;
+}
+
+.top-right-command h3 {
+  margin: 30px 30px 0px 30px;
+}
+
+.bottom-left-ideation h3 {
+  margin: 10px 30px 0px 30px;
+}
+
+.bottom-right-restorative h3 {
+  margin: 10px 30px 0px 30px;
+}
+
+.strengths img {
+  width: 220px;
+  height: 240px;
   left: 0px;
 }
 
-.bottom-right-restorative p {
+.top-left-achiever img {
+  padding: 30px 0px 30px 30px;
+}
+
+.top-right-command img {
+  padding: 30px 0px 30px 30px;
+}
+
+.bottom-left-ideation img {
+  padding: 30px 0px 30px 30px;
+}
+
+.bottom-right-restorative img {
+  padding: 30px 0px 30px 30px;
+}
+
+.strengths p {
   color: #636363;
   width: 220px;
   height: 300px;
-  font-size: 1.5em;
   text-align: left;
-  margin: 60px 0px 50px 0px;
   line-height: 1.2;
   display: inline-block;
+}
+
+.top-left-achiever p {
+  margin: 30px 0 0 0;
+  padding: 0px 30px;
+}
+
+.top-right-command p {
+  margin: 30px 0 0 0;
+  padding: 0px 30px;
+}
+
+.bottom-left-ideation p {
+  margin: 30px 0px 50px 0px;
+  padding: 0px 30px 50px 30px;
+}
+
+.bottom-right-restorative p {
+  margin: 60px 0px 50px 0px;
   padding: 0px 30px 50px 30px;
 }
 
@@ -276,20 +235,21 @@ vertical-align: top;
   color: #BACFD6;
   line-height: 1.5;
   text-align: center;
-  font-size: 1.75em;
+  /*font-size: 1.75em;*/
   padding: 60px;
   margin: auto;
   background-color: black;
 }
 
 .intention h2 {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: red;
-  font-size: 2em;
+  font-size: 250%;
 }
 
 .intention h3 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
   margin: auto;
   padding: 30px;
   line-height: 2.5;
@@ -323,7 +283,7 @@ img.ladder {
 }
 
 .focus h3 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
   margin: auto;
   padding: 30px;
   line-height: 2.5;
@@ -348,19 +308,19 @@ img.eye {
   color: #BACFD6;
   line-height: 1.5;
   text-align: center;
-  font-size: 1.75em;
   padding: 60px;
   margin: auto;
 }
 
 .skills h2 {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: yellow;
-  font-size: 2em;
+  font-size: 250%;
 }
 
 .skills h3 {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
   margin: auto;
   padding: 30px;
   line-height: 2.5;
