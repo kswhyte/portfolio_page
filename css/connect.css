@@ -1,122 +1,11 @@
-body {
-  font-family: 'Lato', sans-serif;
-}
-
-/*Header*/
-.icon-earth:before {
-  content: "\e9ca";
-  font-size: 1.5em;
-  margin: 14px 0 14px 14px;
-  display: inline-block;
-}
-
-.icon-earth:hover {
-  color: #ED0000;
-  font-size: 1.1em;
-  transition: all 1s ease-in-out;
-}
-
-header {
-  font-family: 'Dosis', sans-serif;
-  padding: 20px;
-  background-color: #012d42;
-  height: 75px;
-}
-
-header a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-size: 175%;
-  padding: 1.5px;
-}
-
-h1 {
-  display: inline-block;
-  text-indent: -9999px;
-  width: 10px;
-  margin: 10px;
-  padding: 21.5px;
-}
-
-nav {
-  float: right;
-}
-
-li {
-  display: inline-block;
-  padding: 21.5px;
-}
-
-.projects:hover {
-  color: #00B0EB;
-}
-
-.about:hover {
-  color: #36F5AF;
-}
-
-.cv:hover {
-  color: #FF534A;
-}
-
-.photos:hover {
-  color: #faff00;
-}
-
-.blog:hover {
-  color: #FFA60D;
-}
-
-.connect:hover {
-  color: #ad00ff;
-}
-
-#hero {
-  background: url('../images/snow-mountain.jpg') no-repeat center center fixed;
-  background-size: cover;
-  text-align: center;
-  padding: 250px 0;
-  margin-bottom: 0px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#container {
-  font-family: 'Exo', sans-serif;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -100px;
-  width: 100%;
-  font-size: 450%;
-  color: yellow;
-  text-shadow: 3px 3px 5px #000000;
-}
-
-#tagline {
-  font-family: 'Berkshire Swash', cursive;
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -90px;
-  width: 100%;
-  font-size: 250%;
-  color: black;
-  text-shadow: 3px 3px 3px white;
-}
-/*____________________________________________________________________________*/
-/*connect*/
-
+/*____________connect______________*/
 .contact {
-  font-family: 'Dosis', sans-serif;
-  background-color: #54F7AE;
-  color: #636363;;
+  font-family: 'Oswald', sans-serif;
+  background: url('../images/ocean-mist.jpeg') no-repeat center center fixed;
+  background-size: cover;
   line-height: 2;
   padding: 0px;
-  font-size: 1.75em;
+  font-size: 26px;
   text-align: center;
   /*margin: auto;*/
 }
@@ -126,23 +15,31 @@ li {
   text-decoration: none;
   list-style-type: none;
   color: white;
-  font-size: 175%;
+  font-size: 30px;
   display: inline-block;
 }
 
 .mail {
   color: white;
-  height: 50px;
-  padding: 60px 0 0 0;
+  height: 25px;
+  padding: 40px 0 0 0;
   display: inline-block;
+}
+
+.mail p {
+  color: #54F7AE;
 }
 
 .phone {
   color: white;
   fill: currentColor;
-  height: 50px;
+  height: 25px;
   display: inline-block;
 }
+
+/*.phone p {
+  color: white;
+}*/
 
 img.contact {
   width: 200px;
@@ -155,129 +52,38 @@ img.contact {
 }
 
 h2.contact {
-  color: black;
-  font-size: 2em;
+  color: #636363;
+  font-size: 22px;
   padding: 30px 0;
   margin: auto;
-  position: center;
+  position: left;
 }
 
 img.healing-staff {
-  background-color: #54F7AE;
-  width: 150px;
-  height: 250px;
-  padding: 0 30px 30px 30px;
+  /*background: #54F7AE;*/
+  width: 120px;
+  height: 220px;
+  padding: 0 30px;
   margin: auto;
   left: 0
   position: left;
   display: inline-block;
 }
 
-.contact p {
+.hyperlink {
   text-decoration: none;
   list-style-type: none;
-  padding: 0px 0 60px 0;
-  margin: auto;
+  color: #54F7AE;
 }
 
-/*____________________________________________________________________________*/
-/*footer*/
-
-/*Icomoon standard css setup*/
-@font-face {
-    font-family: 'icomoon';
-    src: url(../fonts/icomoon.eot);
-    src: url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'),
-    url(../fonts/icomoon.woff) format('woff'),
-    url(../fonts/icomoon.ttf) format('truetype'),
-    url(../fonts/icomoon.svg#icomoon) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-    font-family: 'icomoon';
-    font-style: normal;
-    speak: none;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-}
-
-/*Footer*/
-.icon-github:before {
-  content: "\eab0";
-}
-
-.icon-linkedin2:before {
-  content: "\eaca";
-}
-
-.icon-twitter:before {
-  content: "\ea96";
-}
-
-.icon-facebook:before {
-  content: "\ea90";
-}
-
-.icon-instagram:before {
-  content: "\ea92";
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #000000;
-  height: 75px;
-}
-
-footer ul a {
+.hyperlink:hover {
   color: white;
-  font-size: 2em;
-  left: 0;
-  position: relative;
-  align-content: center;
-  width: 100%;
 }
 
-footer a {
+.contact p {
+  color: #636363;
   text-decoration: none;
-  padding: 25%;
-}
-
-/*hover for social media icons:*/
-footer li:hover .icon-github {
-  color: purple;
-}
-
-footer li:hover .icon-linkedin2 {
-  color: #FFA60D;
-}
-
-footer li:hover .icon-twitter {
-  color: #00B0EB;
-}
-
-footer li:hover .icon-facebook {
-  color: #FF534A;
-}
-
-footer li:hover .icon-instagram {
-  color: #36F5AF;
-}
-
-.copyright {
-  color: #9C9C9C;
-  text-align: left;
-  position: relative;
-  margin: -20px 30px;
-}
-
-.email {
-  color: #9C9C9C;
-  text-align: right;
-  position: relative;
-  margin: -20px 30px;
+  list-style-type: none;
+  padding: 0px 0 30px 0;
+  margin: auto;
 }

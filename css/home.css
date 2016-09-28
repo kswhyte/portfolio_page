@@ -1,82 +1,8 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/*Header*/
-.icon-earth:before {
-  content: "\e9ca";
-  font-size: 1.5em;
-  margin: 14px 0 14px 14px;
-  display: inline-block;
-}
-
-.icon-earth:hover {
-  color: #ED0000;
-  font-size: 1.1em;
-  transition: all 1s ease-in-out;
-}
-
-header {
-  font-family: 'Dosis', sans-serif;
-  padding: 20px;
-  background-color: #012d42;
-  height: 75px;
-}
-
-header a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-size: 175%;
-  padding: 1.5px;
-}
-
-h1 {
-  display: inline-block;
-  text-indent: -9999px;
-  width: 10px;
-  margin: 10px;
-  padding: 21.5px;
-}
-
-nav {
-  float: right;
-}
-
-li {
-  display: inline-block;
-  padding: 21.5px;
-}
-
-.projects:hover {
-  color: #00B0EB;
-}
-
-.about:hover {
-  color: #36F5AF;
-}
-
-.cv:hover {
-  color: #FF534A;
-}
-
-.photos:hover {
-  color: #faff00;
-}
-
-.blog:hover {
-  color: #FFA60D;
-}
-
-.connect:hover {
-  color: #ad00ff;
-}
-
 #hero {
-  background: url('../images/mountain_dusting.jpg') no-repeat center center fixed;
+  background: url('../images/diagonal-mountain-fog.jpeg') no-repeat center center fixed;
   background-size: cover;
   text-align: center;
-  padding: 60px 0px;
+  padding: 200px 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,112 +10,25 @@ li {
 }
 
 #kw-logo {
+  border-radius: 50%;
   margin: auto;
   max-width: 400px;
   max-height: 400px;
+  -webkit-transition: width 3s, height 3s, background-color 3s, -webkit-transform 3s;
 }
 
 #kw-logo:hover {
-  color: red;
+  background: #54F7AE;;
+  z-index: 1;
+  border-radius: 50%;
+  transform: rotate(180deg) rotateY(180deg);
+  transition-timing-function: ease;
+  -ms-filter: "FlipV" "FlipH";
 }
 
-/*____________________________________________________________________________*/
-/*footer*/  /*Icomoon standard css setup*/
-
-@font-face {
-    font-family: 'icomoon';
-    src: url(../fonts/icomoon.eot);
-    src: url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'),
-    url(../fonts/icomoon.woff) format('woff'),
-    url(../fonts/icomoon.ttf) format('truetype'),
-    url(../fonts/icomoon.svg#icomoon) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-    font-family: 'icomoon';
-    font-style: normal;
-    speak: none;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-}
-
-/*Footer*/
-.icon-github:before {
-  content: "\eab0";
-}
-
-.icon-linkedin2:before {
-  content: "\eaca";
-}
-
-.icon-twitter:before {
-  content: "\ea96";
-}
-
-.icon-facebook:before {
-  content: "\ea90";
-}
-
-.icon-instagram:before {
-  content: "\ea92";
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: black;
-  height: 75px;
-}
-
-footer ul a {
-  color: white;
-  font-size: 2em;
-  left: 0;
-  position: relative;
-  align-content: center;
-  width: 100%;
-}
-
-footer a {
-  text-decoration: none;
-  padding: 25%;
-}
-
-/*hover for social media icons:*/
-footer li:hover .icon-github {
-  color: purple;
-}
-
-footer li:hover .icon-linkedin2 {
-  color: #FFA60D;
-}
-
-footer li:hover .icon-twitter {
-  color: #00B0EB;
-}
-
-footer li:hover .icon-facebook {
-  color: #FF534A;
-}
-
-footer li:hover .icon-instagram {
-  color: #36F5AF;
-}
-
-.copyright {
-  color: #9C9C9C;
-  text-align: left;
-  position: relative;
-  margin: -20px 30px;
-}
-
-.email {
-  color: #9C9C9C;
-  text-align: right;
-  position: relative;
-  margin: -20px 30px;
+@media (max-width: 1030px) {
+  #kw-logo {
+    max-width: 400px;
+    max-height: 400px;
+  }
 }

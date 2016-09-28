@@ -1,86 +1,12 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/*Header*/
-.icon-earth:before {
-  content: "\e9ca";
-  font-size: 1.5em;
-  margin: 14px 0 14px 14px;
-  display: inline-block;
-}
-
-.icon-earth:hover {
-  color: #ED0000;
-  font-size: 1.1em;
-  transition: all 1s ease-in-out;
-}
-
-header {
-  font-family: 'Dosis', sans-serif;
-  padding: 20px;
-  background-color: #012d42;
-  height: 75px;
-}
-
-header a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-size: 175%;
-  padding: 1.5px;
-}
-
-h1 {
-  display: inline-block;
-  text-indent: -9999px;
-  width: 10px;
-  margin: 10px;
-  padding: 21.5px;
-}
-
-nav {
-  float: right;
-}
-
-li {
-  display: inline-block;
-  padding: 21.5px;
-}
-
-.projects:hover {
-  color: #00B0EB;
-}
-
-.about:hover {
-  color: #36F5AF;
-}
-
-.cv:hover {
-  color: #FF534A;
-}
-
-.photos:hover {
-  color: #faff00;
-}
-
-.blog:hover {
-  color: #FFA60D;
-}
-
-.connect:hover {
-  color: #ad00ff;
-}
-
-/*____________________________________________________________________________*/
-/*kinan-whyte*/
+/*________________________________________*/
+/*about*/
 
 #container {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   top: -50px;
   width: 100%;
-  font-size: 250%;
+  font-size: 36px;
   color: #636363;
   line-height: 1.25;
   display: block;
@@ -93,29 +19,23 @@ li {
 
 #profile {
   display: block;
-  background: white;
   margin: auto;
-  position: center;
   border-radius: 50%;
-  width: 22%;
-  height: 22%;
-  z-index: 99;
-  box-shadow: 0px 0px 20px black;
-}
-
-article {
-  display: inline-block;
+  box-shadow: 5px 5px 5px #888888;
+  max-width: 300px;
+  max-height: 400px;
+  shadow: 20px black;
 }
 
 .intro {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #636363;
   line-height: 1.5;
   text-align: center;
-  font-size: 1.75em;
-  padding: 60px;
-  margin: 60px 0 0 0;
-  background-color: #54F7AE;
+  font-size: 1.5em;
+  padding: 50px;
+  margin: 60px 0 30px 0;
+  background-color: #d0d0d0;
 }
 
 .hyperlink {
@@ -125,66 +45,49 @@ article {
 /*___________________________________*/
 /*strengths*/
 
-section article {
-  margin: auto;
-  text-align: center;
-  padding: 30px 5px;
+.strengths {
   background-color: white;
-}
-
-/*.strengths {
   margin: auto;
-  position: center;
   display: block;
-}*/
-
-.top-left-achiever {
-  text-align: left;
+  max-width: 1050px;
+  max-height: 1050px;
 }
 
-.top-right-command {
-  text-align: right;
-}
-
-.bottom-left-ideation {
-  text-align: left;
-}
-
-.bottom-right-restorative {
-  text-align: right;
+.strengths article {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .strengths h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Dosis', sans-serif;
   text-align: center;
-  font-size: 250%;
+  font-size: 30px;
   vertical-align: top;
 }
 
 .top-left-achiever h3 {
-  margin: 30px 30px 0px 30px;
+  margin: 30px 30px 0 10px;
 }
 
 .top-right-command h3 {
-  margin: 30px 30px 0px 30px;
+  margin: 30px 0 0 30px;
 }
 
 .bottom-left-ideation h3 {
-  margin: 10px 30px 0px 30px;
+  margin: 10px 30px 0 10px;
 }
 
 .bottom-right-restorative h3 {
-  margin: 10px 30px 0px 30px;
+  margin: 10px 0 0 30px;
 }
 
 .strengths img {
   width: 220px;
   height: 240px;
-  left: 0px;
 }
 
 .top-left-achiever img {
-  padding: 30px 0px 30px 30px;
+  padding: 30px 0px 30px 10px;
 }
 
 .top-right-command img {
@@ -192,7 +95,7 @@ section article {
 }
 
 .bottom-left-ideation img {
-  padding: 30px 0px 30px 30px;
+  padding: 30px 0px 30px 10px;
 }
 
 .bottom-right-restorative img {
@@ -209,26 +112,26 @@ section article {
 }
 
 .top-left-achiever p {
-  margin: 30px 0 0 0;
-  padding: 0px 30px;
+  margin: 30px 0 20px 0;
+  padding: 0px 30px 20px 30px;
 }
 
 .top-right-command p {
-  margin: 30px 0 0 0;
-  padding: 0px 30px;
+  margin: 30px 0 20px 0;
+  padding: 0 0 20px 30px;
 }
 
 .bottom-left-ideation p {
-  margin: 30px 0px 50px 0px;
-  padding: 0px 30px 50px 30px;
+  margin: 30px 0px 20px 0px;
+  padding: 0px 30px 20px 30px;
 }
 
 .bottom-right-restorative p {
-  margin: 60px 0px 50px 0px;
-  padding: 0px 30px 50px 30px;
+  margin: 60px 0px 20px 0px;
+  padding: 0px 0 20px 30px;
 }
 
-/*____________________________________________________________________________*/
+/*_______________________________________*/
 /*Intention*/
 
 .intention {
@@ -244,7 +147,7 @@ section article {
 .intention h2 {
   font-family: 'Oswald', sans-serif;
   color: red;
-  font-size: 250%;
+  font-size: 36px;
 }
 
 .intention h3 {
@@ -253,23 +156,15 @@ section article {
   margin: auto;
   padding: 30px;
   line-height: 2.5;
-  color: white;
+  color: yellow;
 }
 
 .intention p {
   margin: auto;
   padding: 0px 30px 30px 30px;
-  width: 750px;
-}
-
-img.reaching {
-  width: 150px;
-  height: 200px;
-  padding: 45px 30px 15px 30px;
-  margin: auto;
-  left: 0
-  position: center;
+  max-width: 750px;
   display: block;
+
 }
 
 img.ladder {
@@ -287,7 +182,7 @@ img.ladder {
   margin: auto;
   padding: 30px;
   line-height: 2.5;
-  color: white;
+  color: yellow;
 }
 
 img.eye {
@@ -300,7 +195,7 @@ img.eye {
   display: block;
 }
 
-/*____________________________________________________________________________*/
+/*________________________________________*/
 /*Skills*/
 
 .skills {
@@ -314,8 +209,8 @@ img.eye {
 
 .skills h2 {
   font-family: 'Oswald', sans-serif;
-  color: yellow;
-  font-size: 250%;
+  color: white;
+  font-size: 36px;
 }
 
 .skills h3 {
@@ -324,7 +219,7 @@ img.eye {
   margin: auto;
   padding: 30px;
   line-height: 2.5;
-  color: white;
+  color: yellow;
 }
 
 .skills p {
@@ -332,135 +227,144 @@ img.eye {
   padding: 0px 30px 30px 30px;
 }
 
+img.keyboard, img.cogwheel, img.bee-hive {
+  padding: 0 30px;
+  margin: auto;
+  display: block;
+}
+
 img.keyboard {
   width: 325px;
   height: 170px;
-  padding:  15px 30px 30px 30px;
-  margin: auto;
-  left: 0
-  position: center;
-  display: block;
 }
 
 img.cogwheel {
   width: 175px;
   height: 175px;
-  padding:  15px 30px 30px 30px;
-  margin: auto;
-  left: 0
-  position: center;
-  display: block;
 }
 
 img.bee-hive {
   width: 200px;
   height: 250px;
-  padding:  30px 30px 20px 30px;
-  margin: auto;
-  left: 0
-  position: center;
-  display: block;
 }
 
+/*______________________*/
 
-/*____________________________________________________________________________*/
-/*footer*/
+@media (max-width: 1030px) {
+  #container {
+    font-size: 30px;
+  }
 
-/*Icomoon standard css setup*/
-@font-face {
-    font-family: 'icomoon';
-    src: url(../fonts/icomoon.eot);
-    src: url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'),
-    url(../fonts/icomoon.woff) format('woff'),
-    url(../fonts/icomoon.ttf) format('truetype'),
-    url(../fonts/icomoon.svg#icomoon) format('svg');
-    font-weight: normal;
-    font-style: normal;
+  #profile {
+    max-width: 220px;
+    max-height: 330px;
+  }
+
+  .intro {
+    font-size: 22px;
+    padding: 60px;
+    margin: 60px 0 30px 0;
+    background-color: #54F7AE;
+  }
+
+  /*.strengths {
+    display: block;
+    max-width: 1030px;
+    max-height: 1500px;
+    position: center;
+    margin: auto;
+  }*/
+
+  .strengths article {
+    display: inline-block;
+    /*margin: auto;*/
+    justify-content: center;
+  }
+
+  /*.strenths-row1 {
+    justify-content: center;
+    display: block;
+    margin: auto;
+  }
+
+  .strenths-row2 {
+    justify-content: center;
+    display: block;
+    margin: auto;
+  }*/
+
+  .strengths img {
+    display: block;
+    width: 165px;
+    height: 180px;
+    margin: auto;
+  }
+
+  .strengths p {
+    display: block;
+    text-align: center;
+    width: 280px;
+    height: 230px;
+    padding: 20px;
+    margin: 20px;
+  }
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-    font-family: 'icomoon';
-    font-style: normal;
-    speak: none;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+@media (max-width: 730px) {
+  .strengths article {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: flex;
+    position: center;
+  }
+
+  .strengths h3 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+
+  .top-left-achiever h3 {
+    margin: 0;
+    display: block;
+  }
+
+  .top-right-command h3 {
+    margin: 0;
+    display: block;
+  }
+
+  .bottom-left-ideation h3 {
+    margin: 0;
+    display: block;
+  }
+
+  .bottom-right-restorative h3 {
+    margin: 0;
+    display: block;
+  }
+
+  .strengths img {
+    display: block;
+    width: 165px;
+    height: 180px;
+    margin: auto;
+    padding: 30px 0 20px 0;
+    margin: auto;
+  }
+
+  .strengths p {
+    display: block;
+    width: 380px;
+    height: 150px;
+    padding: 0 0 20px 0;
+    margin: auto;
+    justify-content: center;
+  }
 }
 
-/*Footer*/
-.icon-github:before {
-  content: "\eab0";
-}
+@media (max-width: 320px) {
 
-.icon-linkedin2:before {
-  content: "\eaca";
-}
-
-.icon-twitter:before {
-  content: "\ea96";
-}
-
-.icon-facebook:before {
-  content: "\ea90";
-}
-
-.icon-instagram:before {
-  content: "\ea92";
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #000000;
-  height: 75px;
-}
-
-footer ul a {
-  color: white;
-  font-size: 2em;
-  left: 0;
-  position: relative;
-  align-content: center;
-  width: 100%;
-}
-
-footer a {
-  text-decoration: none;
-  padding: 25%;
-}
-
-/*hover for social media icons:*/
-footer li:hover .icon-github {
-  color: purple;
-}
-
-footer li:hover .icon-linkedin2 {
-  color: #FFA60D;
-}
-
-footer li:hover .icon-twitter {
-  color: #00B0EB;
-}
-
-footer li:hover .icon-facebook {
-  color: #FF534A;
-}
-
-footer li:hover .icon-instagram {
-  color: #36F5AF;
-}
-
-.copyright {
-  color: #9C9C9C;
-  text-align: left;
-  position: relative;
-  margin: -20px 30px;
-}
-
-.email {
-  color: #9C9C9C;
-  text-align: right;
-  position: relative;
-  margin: -20px 30px;
 }

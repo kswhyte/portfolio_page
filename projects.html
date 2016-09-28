@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>Kinan Whyte - Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Lato|Open+Sans|Oswald|Montserrat|Raleway|Roboto|Source+Sans+Pro" rel="stylesheet">
   </head>
@@ -15,59 +18,99 @@
         <ul>
           <li><a class="projects" href="projects.html">projects</a></li>
           <li><a class="about" href="about.html">about</a></li>
-          <li><a class="cv" href="cv.html">cv</a></li>
+          <li><a class="resume" href="resume.html">resume</a></li>
           <li><a class="photos" href="photos.html">photos</a></li>
-          <li><a class="blog" href="blog.html">blog</a></li>
+          <li><a class="blog" href="https://medium.com/@iamkinansw" target="_blank">blog</a></li>
           <li><a class="connect" href="connect.html#">connect</a></li>
         </ul>
       </nav>
     </header>
- <!-- _______________________________________________________________________ --> 
 
-    <section class="projects">
-      <article class="first-project-1">
+ <!-- _________________projects____________________ -->
+    <section class="projects-list">
+      <article class="game-time">
         <h2>Projects</h2>
-        <h3>Project Name - 1</h3>
-        <img src="images/floral-white.png" alt="floral"/>
+
+        <h3>Game Time</h3>
+        <div><img class="game-time-image" src="./project-images/papaya-leaves.jpg" alt="yoshi"/></div>
           <p>
-            Project Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Isto modo ne improbos quidem, si essent boni viri. Si longus, levis; Nemo nostrum istius generis asotos iucunde putat vivere. Omnia contraria, quos etiam insanos esse vultis. A mene tu? Omnia contraria, quos etiam insanos esse vultis.
+            Our game is called Papaya Whipper, a new take on the classic Breakout arcade game. Its name carries on the legacy of building games as tributes to the finest Hex code colors, which began with Casey Metz and Jeff Duke's timeless classic, "Blanched Almonoid". To pay back our debt to these visionaries, there are hints of Blanched Almond throughout the games' styling. Papaya Whipper is built entirely with Javascript and HTML5 Canvas, was tested using Chai, and is our humble tribute to one of the most powerful colors humankind has ever created - Papaya Whip.
           </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/game-time.md" class="game-time-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/game-time" class="game-time-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/game-time/" class="game-time-live-HL" target="_blank">Play the Live Game</a></h5>
+        </section>
       </article>
 
-      <article class="first-project-2">
-        <h3>Project Name - 2</h3>
-        <img src="images/floral-white.png" alt="floral"/>
+      <article class="idea-box">
+        <h3>Idea Box</h3>
+        <div><img class="idea-box-image" src="./project-images/light-bulb-filament.jpg" alt="light-bulb"/></div>
           <p>
-            Project Description: Lorem ipsum dolor sit amet, curabitur pellentesque ac molestie bibendum velit, duis ab et, sed elit malesuada cras sollicitudin, sit nec. Dui lorem montes dolor rhoncus, nec sit non dignissim orci suspendisse sed, quis et nulla praesent justo.
+            Every developer has more ideas than time. As David Allen likes to say "the human brain is for creating ideas, not remembering them." In this project, we built a simple application for recording and archiving our ideas (good and bad alike). Throughout the project, one of our focuses was on providing a fluid and responsive client-side interface. To this end, we relied on JavaScript and jQuery to implement snappy filtering in the browser, and localStorage to persist our wonderful ideas between sessions.
           </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/ideabox.md" class="idea-box-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/idea-box" class="idea-box-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/idea-box/" class="idea-box-live-HL" target="_blank">Test the App</a></h5>
+        </section>
       </article>
 
-      <article class="first-project-3">
-        <h3>Project Name - 3</h3>
-        <img src="images/floral-white.png" alt="floral"/>
+      <article class="linked-list">
+        <h3>'Linked List'</h3>
+        <div><img class="linked-list-image" src="./project-images/charcoal-backdrop.jpg" alt="chained-links"/></div>
           <p>
-            Project Description: Lorem ipsum dolor sit amet, curabitur pellentesque ac molestie bibendum velit, duis ab et, sed elit malesuada cras sollicitudin, sit nec. Dui lorem montes dolor rhoncus, nec sit non dignissim orci suspendisse sed, quis et nulla praesent justo.
+            This project aimed to allow a user to name a bookmark with a title and save a URL link to a webpage to the DOM. Users could click the link, 'Mark as Read', and 'Remove' the bookmark from their list. Unlike, an ordered set of data elements, each containing a link to its successor (as a linked list is traditionally defined in computer programming), this app simply generates a list of links, although, they are not stored in localStorage. We chose the name 'Bomb Links' to indicate bookmarks that are considered amazing.
           </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/linked-list.md" class="linked-list-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/linked-list" class="linked-list-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/linked-list/" class="linked-list-live-HL" target="_blank">Test the App</a></h5>
+        </section>
+      </article>
+
+      <article class="number-guesser">
+        <h3>Number Guesser</h3>
+        <div><img class="number-guesser-image" src="./project-images/oil-in-water.jpg" alt="numbers"/></div>
+          <p>
+            Number Guesser is a mini-game by which your task is to guess a number between a default range of 1 and 100 that matches a computer-generated random number. If your number is too high, too low, out of the accepted range, not a valid entry (such as a letter), or equal to the computer's number, you will receive condition-specific feedback on your guess. In the case that you guess the number correctly, you win, and the program adjusts the max and min by 10, up and down respectively, to add a greater difficulty after each successful guess. You can also manually adjust the max and min, clear the input field, and reset the game. Users are also able to customize the range at their own volition.
+          </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/number-guesser.md" class="number-guesser-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/number-guesser" class="number-guesser-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/number-guesser/" class="number-guesser-live-HL" target="_blank">Play the Game</a></h5>
+        </section>
+      </article>
+
+      <article class="color-changer">
+        <h3>Color Changer</h3>
+        <div><img class="color-changer-image" src="./project-images/colors-minerals-india.jpg" alt="colors"/></div>
+          <p>
+            This mini project was aimed at doing exactly what the name implies: change some colors. This small application has two buttons, one which sets a random background color that cannot be white and another that resets the background color to white. This project highlighted focus on breaking the project down into small bite-sized steps, using good git workflows while getting to work on features adhered to comps that showing colors, fonts, and layouts for desktop and for mobile, respectively.
+          </p>
+        <section class="links">
+          <h5><a href="https://github.com/turingschool/front-end-curriculum/blob/gh-pages/projects/color-changer.md" class="color-changer-github" target="_blank">Original Assignment</a></h5>
+          <h5><a href="https://github.com/kswhyte/color-changer" class="color-changer-github" target="_blank">Codebase</a></h5>
+          <h5><a href="https://kswhyte.github.io/color-changer/" class="color-changer-live-HL" target="_blank">Test the App</a></h5>
+        </section>
       </article>
     </section>
-
-  <!-- _______________________________________________________________________ -->
-
-    <footer>
-      <ul>
-        <li><a href="https://github.com/kswhyte" ><i class="icon-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/kswhyte" ><i class="icon-linkedin2"></i></a></li>
-        <li><a href="https://twitter.com/iamkinansw" ><i class="icon-twitter"></i></a></li>
-        <li><a href="https://www.facebook.com/kswhyte" ><i class="icon-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com/kinanswhyte/" ><i class="icon-instagram"></i></a></li>
-        <!-- <li><img src="images/sunmoon"/></li> -->
-      </ul>
-      <p class="copyright">
-        &#169; Kinan Whyte
-      </p>
-      <p class="email">
-        kinanwhyte@gmail.com
-      </p>
-    </footer>
   </body>
+
+  <!-- __________________footer_________________________ -->
+  <footer>
+    <ul>
+      <li><a href="https://github.com/kswhyte" target="_blank"><i class="icon-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/kswhyte" target="_blank"><i class="icon-linkedin2"></i></a></li>
+      <li><a href="https://twitter.com/iamkinansw" target="_blank"><i class="icon-twitter"></i></a></li>
+      <li><a href="https://www.facebook.com/kswhyte" target="_blank"><i class="icon-facebook"></i></a></li>
+      <li><a href="https://www.instagram.com/kinanswhyte/" target="_blank"><i class="icon-instagram"></i></a></li>
+    </ul>
+    <p class="copyright">
+      &#169; Kinan Whyte
+    </p>
+    <p class="email">
+      kinanwhyte@gmail.com
+    </p>
+  </footer>
 </html>

@@ -1,73 +1,33 @@
-body {
-  font-family: 'Lato', sans-serif;
+section {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
 }
 
-/*Header*/
-.icon-earth:before {
-  content: "\e9ca";
-  font-size: 1.5em;
-  margin: 14px 0 14px 14px;
-  display: inline-block;
+section div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
 }
 
-.icon-earth:hover {
-  color: #ED0000;
-  font-size: 1.1em;
-  transition: all 1s ease-in-out;
+section div img {
+  width: 100%;
+  height: auto;
 }
 
-header {
-  font-family: 'Dosis', sans-serif;
-  padding: 20px;
-  background-color: #012d42;
-  height: 75px;
-}
-
-header a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-size: 175%;
-  padding: 1.5px;
-}
-
-h1 {
-  display: inline-block;
-  text-indent: -9999px;
-  width: 10px;
-  margin: 10px;
-  padding: 21.5px;
-}
-
-nav {
-  float: right;
-}
-
-li {
-  display: inline-block;
-  padding: 21.5px;
-}
-
-.projects:hover {
-  color: #00B0EB;
-}
-
-.about:hover {
-  color: #36F5AF;
-}
-
-.cv:hover {
-  color: #FF534A;
-}
-
-.photos:hover {
-  color: #faff00;
-}
-
-.blog:hover {
-  color: #FFA60D;
-}
-
-.connect:hover {
-  color: #ad00ff;
+@media screen and (max-width: 400px) {
+  section div {
+    margin: 0;
+  }
+  section {
+    padding: 0;
+  }
 }

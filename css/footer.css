@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url(../fonts/icomoon.eot);
+    src: url(../fonts/icomoon.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/icomoon.woff) format('woff'),
+    url(../fonts/icomoon.ttf) format('truetype'),
+    url(../fonts/icomoon.svg#icomoon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'icomoon';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+/*Footer*/
+.icon-github:before {
+  content: "\eab0";
+}
+
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  height: 75px;
+}
+
+footer a {
+  color: white;
+  font-size: 2em;
+  left: 0;
+  position: relative;
+  align-content: center;
+  width: 100%;
+  text-decoration: none;
+  padding: 25%;
+}
+
+/*hover for social media icons:*/
+footer li:hover .icon-github {
+  color: purple;
+}
+
+footer li:hover .icon-linkedin2 {
+  color: #FFA60D;
+}
+
+footer li:hover .icon-twitter {
+  color: #00B0EB;
+}
+
+footer li:hover .icon-facebook {
+  color: #FF534A;
+}
+
+footer li:hover .icon-instagram {
+  color: #36F5AF;
+}
+
+.copyright {
+  color: #9C9C9C;
+  font-size: 14px;
+  text-align: left;
+  float: left;
+  margin: -20px 30px;
+  display: inline-block;
+}
+
+.email {
+  color: #9C9C9C;
+  font-size: 14px;
+  text-align: right;
+  float: right;
+  margin: -20px 30px;
+  display: inline-block;
+}
+
+@media (max-width: 1030px) {
+  .icon-github:before {
+    content: "\eab0";
+  }
+
+  .icon-linkedin2:before {
+    content: "\eaca";
+  }
+
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+
+  footer {
+    /*display: flex;*/
+    padding: 10px;
+    height: 65px;
+  }
+
+  footer a {
+    font-size: 170%;
+    padding: 1px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 17px;
+  }
+
+  .copyright, .email {
+    font-size: 12px;
+    margin: -15px 30px;
+  }
+
+  /*.email {
+    font-size: 12px;
+  }*/
+}
