@@ -2,6 +2,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#profile {
+  display: block;
+  margin: 60px auto 10px auto;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #888888;
+  max-width: 400px;
+  max-height: 400px;
+  shadow: 20px black;
+}
+
 /*Header*/
 .icon-earth:before {
   content: "\e9ca";
