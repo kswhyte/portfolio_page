@@ -18,7 +18,7 @@
 }
 
 #kw-logo:hover {
-  background: #54F7AE;;
+  background: #d0d0d0;
   z-index: 1;
   border-radius: 50%;
   transform: rotate(180deg) rotateY(180deg);
@@ -28,7 +28,14 @@
 
 @media (max-width: 1030px) {
   #kw-logo {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 730px) {
+  #kw-logo {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
