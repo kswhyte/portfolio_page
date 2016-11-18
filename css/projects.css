@@ -13,6 +13,7 @@
   font-family: 'Oswald', sans-serif;
   color: yellow;
   font-size: 250%;
+  margin-bottom: 30px;
 }
 
 .projects-list h3 {
@@ -22,6 +23,12 @@
   padding: 30px;
   line-height: 2.5;
   color: red;
+}
+
+.projects-list h4 {
+  font-size: 1.25em;
+  color: white;
+  padding-bottom: 10px;
 }
 
 .projects-list img {
@@ -35,6 +42,11 @@
   margin: auto;
   padding: 0px 30px 30px 30px;
   max-width: 750px;
+}
+
+.craft-intro-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .links h5 a {
