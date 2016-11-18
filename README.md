@@ -21,4 +21,5 @@ DRY, reusable CSS
 External stylesheets
 Deploy as a gh-pages site
 
+---
 See my portfolio site live [here](https://kswhyte.github.io/portfolio_page/).

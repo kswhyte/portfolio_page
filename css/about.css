@@ -1,51 +1,32 @@
 /*________________________________________*/
 /*about*/
 .container {
-  height: 550px;
+  height: 575px;
   display: block;
-  background: url('../images/kw-lotus-lodo.jpg') no-repeat center center fixed;
+  background: url('../images/lodo-banner-profile-crop-slim-20opaq2.jpg') no-repeat center center fixed;
   background-size: cover;
-  /*background: black;*/
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #tagline {
-  /*position: relative;*/
   z-index: 1;
-  /*background: black;*/
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  top: -150px;
-  width: 100%;
+  /*top: -10px;*/
+  display: flex;
   font-size: 60px;
   color: white;
   line-height: 1.25;
-  /*display: block;*/
-  /*margin: 0 auto 100px auto;*/
 }
-
-/*#hero {
-  background: black;
-}*/
-
-/*#profile {
-  display: block;
-  margin: 0px 30px 0px 0px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 5px #888888;
-  max-width: 400px;
-  max-height: 550px;
-  shadow: 20px black;
-}*/
 
 .intro {
   font-family: 'Open Sans', sans-serif;
   color: #636363;
   line-height: 1.5;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 18px;
   padding: 50px;
   margin: 0 0 30px 0;
   background-color: #d0d0d0;
@@ -64,95 +45,54 @@
   margin: auto;
   display: block;
   max-width: 1050px;
-  max-height: 1050px;
+  max-height: auto;
 }
 
 .strengths article {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   vertical-align: top;
 }
 
 .strengths h3 {
+  width: 175px;
+  height: 60px;
+  bottom: 40px;
+  padding: 50px 0;
   font-family: 'Dosis', sans-serif;
   text-align: center;
   font-size: 30px;
-  vertical-align: top;
-}
-
-.top-left-achiever h3 {
-  margin: 30px 30px 0 10px;
-}
-
-.top-right-command h3 {
-  margin: 30px 0 0 30px;
-}
-
-.bottom-left-ideation h3 {
-  margin: 10px 30px 0 10px;
-}
-
-.bottom-right-restorative h3 {
-  margin: 10px 0 0 30px;
+  vertical-align: middle;;
 }
 
 .strengths img {
-  width: 220px;
-  height: 240px;
-}
-
-.top-left-achiever img {
-  padding: 30px 0px 30px 10px;
-}
-
-.top-right-command img {
-  padding: 30px 0px 30px 30px;
-}
-
-.bottom-left-ideation img {
-  padding: 30px 0px 30px 10px;
-}
-
-.bottom-right-restorative img {
-  padding: 30px 0px 30px 30px;
+  padding: 20px 40px 20px 20px;
+  width: 110px;
+  height: 120px;
 }
 
 .strengths p {
   color: #636363;
-  width: 220px;
-  height: 300px;
+  padding: 30px 30px 20px 0;
+  max-width: 600px;
+  height: 120px;
   text-align: left;
   line-height: 1.2;
   display: inline-block;
 }
 
-.top-left-achiever p {
-  margin: 30px 0 20px 0;
-  padding: 0px 30px 20px 30px;
+#restorative {
+  margin-bottom: 30px;
 }
 
-.top-right-command p {
-  margin: 30px 0 20px 0;
-  padding: 0 0 20px 30px;
-}
-
-.bottom-left-ideation p {
-  margin: 30px 0px 20px 0px;
-  padding: 0px 30px 20px 30px;
-}
-
-.bottom-right-restorative p {
-  margin: 60px 0px 20px 0px;
-  padding: 0px 0 20px 30px;
-}
-
-/*_______________________________________*/
+/*____________________*/
 /*Intention*/
 
 .intention {
   color: #BACFD6;
   line-height: 1.5;
   text-align: center;
-  /*font-size: 1.75em;*/
   padding: 60px;
   margin: auto;
   background-color: black;
@@ -176,17 +116,16 @@
 .intention p {
   margin: auto;
   padding: 0px 30px 30px 30px;
-  max-width: 750px;
+  max-width: 770px;
   display: block;
-
 }
 
 img.ladder {
-  width: 150px;
-  height: 200px;
-  padding: 30px;
-  margin: auto;
-  left: 0
+  width: 100px;
+  height: 120px;
+  padding: 30px auto;
+  margin: 10px auto 0 auto;
+  left: 0;
   position: center;
   display: block;
 }
@@ -200,9 +139,9 @@ img.ladder {
 }
 
 img.eye {
-  width: 200px;
-  height: 100px;
-  padding:  15px 30px 30px 30px;
+  width: 120px;
+  height: 80px;
+  padding:  0px 30px 30px 30px;
   margin: auto;
   left: 0
   position: center;
@@ -231,9 +170,13 @@ img.eye {
   font-family: 'Dosis', sans-serif;
   font-size: 1.75em;
   margin: auto;
-  padding: 30px;
+  padding: 30px 30px 20px 30px;
   line-height: 2.5;
   color: yellow;
+}
+
+h3.languages {
+  padding: 30px 30px 0 30px;
 }
 
 .skills p {
@@ -241,111 +184,83 @@ img.eye {
   padding: 0px 30px 30px 30px;
 }
 
-img.keyboard, img.cogwheel, img.bee-hive {
-  padding: 0 30px;
+img.cogwheel, img.bee-hive {
+  padding: 0px 30px 30px 30px;
   margin: auto;
   display: block;
 }
 
-img.keyboard {
-  width: 325px;
-  height: 170px;
+img.skill-sword {
+  padding: auto 30px auto 30px;
+  margin: auto;
+  display: block;
+  width: 140px;
+  height: 120px;
 }
 
 img.cogwheel {
-  width: 175px;
-  height: 175px;
+  width: 110px;
+  height: 110px;
 }
 
 img.bee-hive {
-  width: 200px;
-  height: 250px;
+  width: 120px;
+  height: 140px;
 }
 
 /*______________________*/
 
 @media (max-width: 1030px) {
   .container {
-    /*max-height: 300px;*/
     max-width: 1030px;
+  }
+
+  #tagline {
+    font-size: 50px;
+  }
+
+  .intro {
+    font-size: 18px;
+    padding: 60px;
+    margin: 0px 0 30px 0;
+  }
+/*__________________*/
+
+}
+
+@media (max-width: 870px) {
+  .container {
+    max-width: 870px;
   }
 
   #tagline {
     font-size: 40px;
-    /*max-width: 220px;*/
-    /*max-height: 330px;*/
   }
 
   .intro {
-    font-size: 22px;
     padding: 60px;
     margin: 0px 0 30px 0;
   }
+/*_________________*/
 
-
-
-  /*.strengths {
-    display: block;
-    max-width: 1030px;
-    max-height: 1500px;
-    position: center;
-    margin: auto;
-  }*/
-
-  .strengths article {
-    display: inline-block;
-    /*margin: auto;*/
-    justify-content: center;
-  }
-
-  /*.strenths-row1 {
-    justify-content: center;
-    display: block;
-    margin: auto;
-  }
-
-  .strenths-row2 {
-    justify-content: center;
-    display: block;
-    margin: auto;
-  }*/
-
-  .strengths img {
-    display: block;
-    width: 165px;
-    height: 180px;
-    margin: auto;
+  .strengths h3 {
+    padding: 60px 0 0 20px;
   }
 
   .strengths p {
     display: block;
-    text-align: center;
-    width: 280px;
-    height: 230px;
-    padding: 20px;
-    margin: 20px;
+    max-height: 150px;
+    padding: 0 20px 40px 20px;
+    margin: 20px auto;
+    justify-content: center;
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 770px) {
   .container {
-    /*max-height: 300px;*/
-    width: 730px;
+    width: 770px;
   }
 
-  #tagline {
-    font-size: 30px;
-    /*max-width: 220px;*/
-    /*max-height: 330px;*/
-  }
-
-  .intro {
-    font-size: 22px;
-    padding: 60px;
-    margin: 0px 0 30px 0;
-  }
-
-/*_________________*/
   .strengths article {
     display: block;
     margin: auto;
@@ -354,52 +269,65 @@ img.bee-hive {
     position: center;
   }
 
-  .strengths h3 {
-    margin: auto;
-    display: block;
-    text-align: center;
-    padding: 20px 0 0 0;
-  }
-
-  .top-left-achiever h3 {
-    margin: 0;
-    display: block;
-  }
-
-  .top-right-command h3 {
-    margin: 0;
-    display: block;
-  }
-
-  .bottom-left-ideation h3 {
-    margin: 0;
-    display: block;
-  }
-
-  .bottom-right-restorative h3 {
-    margin: 0;
-    display: block;
-  }
-
   .strengths img {
     display: block;
-    width: 165px;
-    height: 180px;
     margin: auto;
-    padding: 30px 0 20px 0;
+    padding: 0px 0 20px 0;
+    margin: auto;
+  }
+
+  .strengths h3 {
+    padding: 0px 0 0 20px;
+    display: block;
     margin: auto;
   }
 
   .strengths p {
     display: block;
-    width: 380px;
-    height: 150px;
-    padding: 0 0 20px 0;
-    margin: auto;
+    max-height: 150px;
+    padding: 0 0px 0px 0;
+    margin: 20px 20px;
+    display: block;
     justify-content: center;
+    text-align: center;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 570px) {
+  .intro {
+    font-size: 14px;
+  }
 
+  #tagline {
+    font-size: 30px;
+  }
+
+  .strengths h3 {
+    margin: 15px auto;
+  }
+
+  .container {
+    max-width: 550px;
+  }
+
+  .strengths p {
+    font-size: 12px;
+    margin: auto 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+
+  p.short-term, p.long-term, p.focus {
+    font-size: 12px;
+  }
+
+  section.intention, section.skills {
+    padding: 15px;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
