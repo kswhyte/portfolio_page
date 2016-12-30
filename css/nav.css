@@ -1,31 +1,31 @@
-.icon-earth:before {
-  content: "\e9ca";
-  font-size: 1.5em;
-  margin: 14px 0 14px 14px;
+#kw-icon {
+  background: url("../images/kw-logo-white.png") no-repeat;
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+  text-indent: -9999px;
   display: inline-block;
+  margin: 7px 0 0 8px;
 }
 
-.icon-earth:hover {
+#kw-icon:hover {
   color: #ED0000;
-  font-size: 1.1em;
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg) rotateY(180deg);
-  transition: all 1s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  transition: all 3s ease-in-out;
   transition-timing-function: ease;
 }
 
 header {
   font-family: 'Dosis', sans-serif;
   padding: 19px;
-  background-color: #012d42;
+  background-color: #1A1A1A;
   height: 75px;
 }
 
 header a {
   text-decoration: none;
   list-style-type: none;
-  color: white;
-  font-size: 175%;
+  color: #eeeeee;
   padding: 1.5px;
 }
 
@@ -54,7 +54,7 @@ li {
   color: #36F5AF;
 }
 
-.cv:hover {
+.resume:hover {
   color: #FF534A;
 }
 
@@ -79,7 +79,6 @@ li {
   }
 
   header {
-    /*display: flex;*/
     padding: 10px;
     height: 65px;
   }

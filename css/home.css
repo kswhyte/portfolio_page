@@ -21,10 +21,13 @@
   background: #d0d0d0;
   z-index: 1;
   border-radius: 50%;
-  transform: rotate(180deg) rotateY(180deg);
+  -webkit-transform: rotate(0deg);
+  transition: all 3s ease-in-out;
+  transform: rotate(360deg) rotateY(180deg);
   transition-timing-function: ease;
   -ms-filter: "FlipV" "FlipH";
 }
+
 
 @media (max-width: 1030px) {
   #kw-logo {
