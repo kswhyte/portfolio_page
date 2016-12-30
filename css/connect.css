@@ -22,7 +22,7 @@
 
 .mail {
   color: white;
-  width: 50px;
+  width: 35px;
   height: 35px;
   padding: 30px 0 0 0;
   display: inline-block;
@@ -40,16 +40,12 @@
   display: inline-block;
 }
 
-/*.phone p {
-  color: white;
-}*/
-
 img.contact {
   width: 200px;
   height: 300px;
   padding: 30px 0px;
   margin: auto;
-  left: 0
+  left: 0;
   position: center;
   display: block;
 }
@@ -63,12 +59,11 @@ h2.contact {
 }
 
 img.healing-staff {
-  /*background: #54F7AE;*/
   width: 120px;
   height: 220px;
   padding: 0 30px;
   margin: auto;
-  left: 0
+  left: 0;
   position: left;
   display: inline-block;
 }
