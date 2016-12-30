@@ -20,86 +20,81 @@
   line-height: 1.25;
 }
 
-.intro {
-  font-family: 'Open Sans', sans-serif;
-  color: #636363;
+/*________________________________________*/
+/*Skills*/
+
+.skills {
+  background-color: #1A1A1A;
+  color: #eeeeee;
   line-height: 1.5;
   text-align: center;
-  font-size: 18px;
-  padding: 50px;
-  margin: 0 0 30px 0;
-  background-color: #d0d0d0;
+  padding: 60px;
+  margin: auto;
 }
 
-.hyperlink {
-  color: navy;
-  text-decoration: none;
+.skills h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #783568;
+  font-size: 36px;
 }
 
-/*___________________________________*/
-/*strengths*/
+.skills h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
+  margin: auto;
+  padding: 30px 30px 20px 30px;
+  line-height: 2.5;
+  color: yellow;
+}
 
-.strengths {
-  background-color: white;
+h3.languages {
+  padding: 30px 30px 0 30px;
+}
+
+.skills p {
+  margin: auto;
+  padding: 0px 30px 30px 30px;
+}
+
+img.cogwheel, img.bee-hive {
+  padding: 0px 30px 30px 30px;
   margin: auto;
   display: block;
-  max-width: 1050px;
-  max-height: auto;
 }
 
-.strengths article {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  vertical-align: top;
+img.skill-sword {
+  padding: 30px;
+  margin: auto;
+  display: block;
+  width: 160px;
+  height: 30px;
 }
 
-.strengths h3 {
-  width: 175px;
-  height: 60px;
-  bottom: 40px;
-  padding: 50px 0;
-  font-family: 'Dosis', sans-serif;
-  text-align: center;
-  font-size: 30px;
-  vertical-align: middle;;
-}
-
-.strengths img {
-  padding: 20px 40px 20px 20px;
+img.cogwheel {
   width: 110px;
-  height: 120px;
+  height: 110px;
 }
 
-.strengths p {
-  color: #636363;
-  padding: 30px 30px 20px 0;
-  max-width: 600px;
-  height: 120px;
-  text-align: left;
-  line-height: 1.2;
-  display: inline-block;
-}
-
-#restorative {
-  margin-bottom: 30px;
+img.bee-hive {
+  width: 120px;
+  height: 140px;
 }
 
 /*____________________*/
 /*Intention*/
 
 .intention {
-  color: #BACFD6;
+  color: #eeeeee;
   line-height: 1.5;
   text-align: center;
   padding: 60px;
   margin: auto;
-  background-color: black;
+  background-color: #0188cb;
 }
 
 .intention h2 {
   font-family: 'Oswald', sans-serif;
-  color: red;
+  color: #1A1A1A;
   font-size: 36px;
 }
 
@@ -147,64 +142,84 @@ img.eye {
   display: block;
 }
 
-/*________________________________________*/
-/*Skills*/
+/*___________________________________*/
+/*mini-bio*/
 
-.skills {
-  background-color: #990000;
-  color: #BACFD6;
+.mini-bio {
+  font-family: 'Open Sans', sans-serif;
+  color: #636363;
   line-height: 1.5;
   text-align: center;
-  padding: 60px;
-  margin: auto;
+  font-size: 18px;
+  padding: 30px;
+  margin: 0 0 30px 0;
+  background-color: #d0d0d0;
 }
 
-.skills h2 {
+.hyperlink {
+  color: navy;
+  text-decoration: none;
+}
+
+.mini-bio h2 {
   font-family: 'Oswald', sans-serif;
-  color: white;
+  color: #0188cb;
   font-size: 36px;
+  margin-bottom: 30px;
 }
 
-.skills h3 {
+.mini-bio p {
+  padding: 30px 0;
+}
+
+/*___________________________________*/
+/*strengths*/
+
+.strengths {
+  background-color: white;
+  margin: auto;
+  display: block;
+  max-width: 1050px;
+  max-height: auto;
+  padding: 30px 0;
+}
+
+.strengths article {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  vertical-align: top;
+}
+
+.strengths h3 {
+  width: 175px;
+  height: 60px;
+  bottom: 40px;
+  padding: 50px 0;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.75em;
-  margin: auto;
-  padding: 30px 30px 20px 30px;
-  line-height: 2.5;
-  color: yellow;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;;
 }
 
-h3.languages {
-  padding: 30px 30px 0 30px;
-}
-
-.skills p {
-  margin: auto;
-  padding: 0px 30px 30px 30px;
-}
-
-img.cogwheel, img.bee-hive {
-  padding: 0px 30px 30px 30px;
-  margin: auto;
-  display: block;
-}
-
-img.skill-sword {
-  padding: auto 30px auto 30px;
-  margin: auto;
-  display: block;
-  width: 140px;
+.strengths img {
+  padding: 20px 40px 20px 20px;
+  width: 110px;
   height: 120px;
 }
 
-img.cogwheel {
-  width: 110px;
-  height: 110px;
+.strengths p {
+  color: #636363;
+  padding: 30px 30px 20px 0;
+  max-width: 600px;
+  height: 120px;
+  text-align: left;
+  line-height: 1.2;
+  display: inline-block;
 }
 
-img.bee-hive {
-  width: 120px;
-  height: 140px;
+#restorative {
+  margin-bottom: 30px;
 }
 
 /*______________________*/
@@ -218,14 +233,14 @@ img.bee-hive {
     font-size: 50px;
   }
 
-  .intro {
+  .mini-bio {
     font-size: 18px;
     padding: 60px;
     margin: 0px 0 30px 0;
   }
+}
 /*__________________*/
 
-}
 
 @media (max-width: 870px) {
   .container {
@@ -236,7 +251,7 @@ img.bee-hive {
     font-size: 40px;
   }
 
-  .intro {
+  .mini-bio {
     padding: 60px;
     margin: 0px 0 30px 0;
   }
@@ -293,7 +308,7 @@ img.bee-hive {
 }
 
 @media (max-width: 570px) {
-  .intro {
+  .mini-bio {
     font-size: 14px;
   }
 
