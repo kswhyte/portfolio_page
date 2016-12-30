@@ -8,9 +8,7 @@
   padding: 100px;
   font-size: 26px;
   display: block;
-
   text-align: center;
-  /*margin: auto;*/
 }
 
 .contact li i {
@@ -24,7 +22,8 @@
 
 .mail {
   color: white;
-  height: 25px;
+  width: 50px;
+  height: 35px;
   padding: 30px 0 0 0;
   display: inline-block;
 }
@@ -36,7 +35,8 @@
 .phone {
   color: white;
   fill: currentColor;
-  height: 25px;
+  height: 35px;
+  width: 35px;
   display: inline-block;
 }
 

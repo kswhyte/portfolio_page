@@ -1,15 +1,14 @@
 #kw-icon {
   background: url("../images/kw-logo-white.png") no-repeat;
-  background-size: 50px 50px;
-  height: 50px;
-  width: 50px;
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
   text-indent: -9999px;
   display: inline-block;
   margin: 7px 0 0 8px;
 }
 
 #kw-icon:hover {
-  color: #ED0000;
   -webkit-transform: rotate(360deg);
   transition: all 3s ease-in-out;
   transition-timing-function: ease;
@@ -27,6 +26,7 @@ header a {
   list-style-type: none;
   color: #eeeeee;
   padding: 1.5px;
+  font-size: 165%;
 }
 
 h1 {
@@ -71,11 +71,10 @@ li {
 }
 
 @media (max-width: 1030px) {
-  .icon-earth:before {
-    content: "\e9ca";
-    font-size: 1.3em;
-    margin: 16px 0 16px 16px;
-    display: inline-block;
+  #kw-icon {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
   }
 
   header {
