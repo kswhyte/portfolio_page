@@ -44,7 +44,7 @@
   font-size: 1.75em;
   margin: auto;
   padding: 30px 30px 20px 30px;
-  line-height: 2.5;
+  /*line-height: 2.5;*/
   color: yellow;
 }
 
@@ -165,7 +165,7 @@ img.eye {
 }
 
 .hyperlink:hover {
-  color: #F78628;
+  color: #D32F2F;
 }
 
 .mini-bio h2 {
@@ -269,8 +269,8 @@ img.travel {
 }
 
 img.camera {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
 }
 
 .photo-hyperlink {
@@ -292,11 +292,9 @@ img.camera {
   .container {
     max-width: 1030px;
   }
-
   #tagline {
     font-size: 50px;
   }
-
   .mini-bio {
     font-size: 18px;
     padding: 60px;
@@ -309,11 +307,9 @@ img.camera {
   .container {
     max-width: 870px;
   }
-
   #tagline {
     font-size: 40px;
   }
-
   .mini-bio {
     padding: 60px;
     margin: 0px 0 30px 0;
@@ -323,7 +319,6 @@ img.camera {
   .strengths h3 {
     padding: 60px 0 0 20px;
   }
-
   .strengths p {
     display: block;
     max-height: 150px;
@@ -335,9 +330,11 @@ img.camera {
 
 @media (max-width: 770px) {
   .container {
-    width: 770px;
+    max-width: 770px;
   }
-
+  #tagline {
+    font-size: 40px;
+  }
   .strengths article {
     display: block;
     margin: auto;
@@ -345,48 +342,72 @@ img.camera {
     align-items: flex;
     position: center;
   }
-
   .strengths img {
     display: block;
     margin: auto;
-    padding: 0px 0 20px 0;
+    padding: 0px 0 0px 0;
     margin: auto;
   }
-
   .strengths h3 {
-    padding: 0px 0 0 20px;
+    padding: 0px 0 0 0px;
     display: block;
     margin: auto;
   }
-
   .strengths p {
     display: block;
     max-height: 150px;
     padding: 0 0px 0px 0;
-    margin: 20px 20px;
+    margin: 20px auto 40px auto;
     display: block;
+    align-items: center;
     justify-content: center;
     text-align: center;
   }
 }
 
+@media (max-width: 600px) {
+  .container {
+    display: inherit;
+    background: url('../images/lodo-profile-larger-color.jpg') no-repeat center center fixed;
+    background-size: cover;
+    max-width: 600px;
+  }
+  #tagline {
+    font-size: 30px;
+    /*margin: 30px 0 0 30px;*/
+    padding: 0;
+    display: block;
+  }
+
 @media (max-width: 570px) {
   .mini-bio {
     font-size: 14px;
   }
-
+  .container {
+    /*display: inherit;*/
+    /*background: url('../images/lodo-profile-larger-color.jpg') no-repeat center center fixed;*/
+    /*background-size: cover;*/
+    max-width: 570px;
+  }
   #tagline {
     font-size: 30px;
   }
-
   .strengths h3 {
-    margin: 15px auto;
+    margin: 0 auto;
+    padding: 0px 0 0 0px;
   }
-
+  .strengths img {
+    padding: 0px 0 0px 0;
+    width: 95;
+    height: 105;
+  }
+  h3.languages {
+    font-size: 1.5em;
+    padding: 30px 0 0 0;
+  }
   .container {
     max-width: 550px;
   }
-
   .strengths p {
     font-size: 12px;
     margin: auto 15px;
@@ -395,16 +416,23 @@ img.camera {
     align-items: center;
     height: 250px;
   }
-
   p.short-term, p.long-term, p.focus {
     font-size: 12px;
   }
-
   section.intention, section.skills {
     padding: 15px;
   }
-
   p {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 570px) {
+  .strengths img {
+    width: 80;
+    height: 90;
+  }
+  .strengths p {
+    margin: 0 0 20px 0;
   }
 }

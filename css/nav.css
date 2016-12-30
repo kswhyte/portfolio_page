@@ -62,11 +62,11 @@ li {
 }
 
 .resume:hover {
-  color: #f7443a;
+  color: #00B0EB;
 }
 
 .photos:hover {
-  color: #00B0EB;
+  color: #f7443a;
 }
 
 .blog:hover {
@@ -100,6 +100,6 @@ li {
   }
 }
 
-/*@media (max-width: 730px) {
+@media (max-width: 620px) {
 
-}*/
+}

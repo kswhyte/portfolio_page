@@ -29,14 +29,13 @@
   transition-timing-function: ease;
 }
 
-
 @media (max-width: 1030px) {
-  #kw-logo {
+  #kw-big-logo {
     background-size: 350px 350px;
     height: 350px;
     width: 350px;
   }
-  #kw-logo:hover {
+  #kw-big-logo:hover {
     background-size: 350px 350px;
     height: 350px;
     width: 350px;
@@ -44,14 +43,39 @@
 }
 
 @media (max-width: 730px) {
-  #kw-logo {
+  #kw-big-logo {
     background-size: 300px 300px;
     height: 300px;
     width: 300px;
   }
-  #kw-logo:hover {
+  #kw-big-logo:hover {
     background-size: 300px 300px;
     height: 300px;
     width: 300px;
+  }
+}
+
+@media (max-width: 530px) {
+  #kw-big-logo {
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+  }
+  #kw-big-logo:hover {
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+  }
+
+@media (max-width: 330px) {
+  #kw-big-logo {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+  }
+  #kw-big-logo:hover {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
   }
 }
