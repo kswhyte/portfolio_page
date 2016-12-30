@@ -2,11 +2,11 @@
 .contact {
   max-height: 800px;
   font-family: 'Oswald', sans-serif;
+  font-size: 26px;
   background: url('../images/ocean-mist.jpeg') no-repeat center center fixed;
   background-size: cover;
   line-height: 2;
   padding: 100px;
-  font-size: 26px;
   display: block;
   text-align: center;
 }

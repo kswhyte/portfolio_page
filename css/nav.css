@@ -1,17 +1,24 @@
 #kw-icon {
-  background: url("../images/kw-logo-white.png") no-repeat;
+  background: url("../images/kw-logo-gradient.png") no-repeat;
   background-size: 60px 60px;
   height: 60px;
   width: 60px;
   text-indent: -9999px;
   display: inline-block;
   margin: 7px 0 0 8px;
+  border: none;
 }
 
 #kw-icon:hover {
+  background: url("../images/kw-logo-white.png") no-repeat;
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+  border: none;
   -webkit-transform: rotate(360deg);
   transition: all 3s ease-in-out;
   transition-timing-function: ease;
+  transform: rotate(360deg) rotateY(0deg);
 }
 
 header {
@@ -47,27 +54,27 @@ li {
 }
 
 .projects:hover {
-  color: #00B0EB;
-}
-
-.about:hover {
-  color: #36F5AF;
-}
-
-.resume:hover {
-  color: #FF534A;
-}
-
-.photos:hover {
   color: #faff00;
 }
 
+.about:hover {
+  color: #ad00ff;
+}
+
+.resume:hover {
+  color: #f7443a;
+}
+
+.photos:hover {
+  color: #00B0EB;
+}
+
 .blog:hover {
-  color: #FFA60D;
+  color: #02B875;
 }
 
 .connect:hover {
-  color: #ad00ff;
+  color: #36F5AF;
 }
 
 @media (max-width: 1030px) {

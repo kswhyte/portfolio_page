@@ -17,16 +17,18 @@
 }
 
 .projects-list h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.75em;
-  margin: 30px auto 0 auto;
-  padding: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 250%;
+  /*font-size: 1.75em;*/
+  margin: 0 auto 0 auto;
+  padding: 15px;
   line-height: 2.5;
-  color: red;
+  color: #f7443a;
 }
 
 .projects-list h4 {
-  font-size: 1.25em;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
   color: white;
   padding-bottom: 10px;
 }
@@ -47,9 +49,13 @@
 .craft-intro-list {
   display: flex;
   flex-direction: column;
+  color: #fbc44a;
+  margin: 0 0 30px 0;
 }
 
 .links h5 a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
   text-decoration: none;
   color: white;
 }
@@ -60,5 +66,5 @@
 
 .links h5 a:hover {
   text-decoration: none;
-  color: #54F7AE;;
+  color: #54F7AE;
 }
