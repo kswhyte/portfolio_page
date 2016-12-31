@@ -1,3 +1,23 @@
+/*.dropdown {
+  background-color: #1A1A1A;
+  visibility: hidden;
+}
+
+#drop-down-icon {
+  background: url("../SGV-Icons/owl.svg") no-repeat;
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
+  outline: 1px solid red;
+  display: inline-block;
+  margin: 7px 8px 0 8px;
+  z-index: 1;
+}
+
+.drop-down-content {
+  visibility: hidden;
+}*/
+
 #kw-icon {
   background: url("../images/kw-logo-gradient.png") no-repeat;
   background-size: 60px 60px;
@@ -11,9 +31,9 @@
 
 #kw-icon:hover {
   background: url("../images/kw-logo-white.png") no-repeat;
-  background-size: 50px 50px;
-  height: 50px;
-  width: 50px;
+  background-size: 60px 60px;
+  height: 60px;
+  width: 60px;
   border: none;
   -webkit-transform: rotate(360deg);
   transition: all 3s ease-in-out;
@@ -83,6 +103,11 @@ li {
     height: 50px;
     width: 50px;
   }
+  #kw-icon:hover {
+    background-size: 50px 50px;
+    height: 50px;
+    width: 50px;
+  }
 
   header {
     padding: 10px;
@@ -100,6 +125,6 @@ li {
   }
 }
 
-@media (max-width: 620px) {
+/*@media (max-width: 620px) {
 
-}
+}*/

@@ -300,6 +300,12 @@ img.camera {
     padding: 60px;
     margin: 0px 0 30px 0;
   }
+  .intention {
+    padding: 60px 30px;
+  }
+  .focus h3 {
+    padding: 20px;
+  }
 }
 /*__________________*/
 
@@ -313,6 +319,18 @@ img.camera {
   .mini-bio {
     padding: 60px;
     margin: 0px 0 30px 0;
+  }
+  .intention {
+    padding: 60px 20px;
+  }
+  .intention p {
+    padding: 0px 10px 30px 10px;
+  }
+  .mini-bio {
+    padding: 20px;
+  }
+  .focus h3 {
+    padding: 10px;
   }
 /*_________________*/
 
@@ -392,12 +410,15 @@ img.camera {
   #tagline {
     font-size: 30px;
   }
+  .intention {
+    padding: 60px 10px;
+  }
   .strengths h3 {
     margin: 0 auto;
     padding: 0px 0 0 0px;
   }
   .strengths img {
-    padding: 0px 0 0px 0;
+    padding: 0px 0 10px 0;
     width: 95;
     height: 105;
   }
@@ -433,6 +454,6 @@ img.camera {
     height: 90;
   }
   .strengths p {
-    margin: 0 0 20px 0;
+    margin: 0 15px 20px 15px;
   }
 }
