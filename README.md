@@ -4,7 +4,7 @@ A personal site represents you, your personal brand, and is a fantastic opportun
 
 <img width="1274" alt="screen shot 2017-01-11 at 10 08 00 pm" src="https://cloud.githubusercontent.com/assets/13802107/21877763/95220830-d84a-11e6-93b8-5da631d0f6f5.png">
 
-<img width="1278" alt="screen shot 2017-01-11 at 10 08 45 pm" src="https://cloud.githubusercontent.com/assets/13802107/21877767/9aad8ef0-d84a-11e6-84a7-5947cf611074.png">
+<img width="1245" alt="screen shot 2017-01-11 at 10 10 12 pm" src="https://cloud.githubusercontent.com/assets/13802107/21877802/da69263a-d84a-11e6-8e44-fa7deec17337.png">
 
 ---
 ###This site was intended to be:
