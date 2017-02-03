@@ -1,8 +1,8 @@
 .projects-list {
-  color: #BACFD6;
+  color: #aaaaaa;
   line-height: 1.5;
   text-align: center;
-  padding: 60px;
+  padding: 15px 0 60px 0;
   margin: auto;
   background-color: #1A1A1A;
   display: block;
@@ -11,45 +11,54 @@
 
 .projects-list h2 {
   font-family: 'Oswald', sans-serif;
-  color: yellow;
-  font-size: 250%;
-  margin-bottom: 30px;
+  color: #f7443a;
+  font-size: 2.5em;
+  margin: 45px 15px 30px 15px;
 }
 
 .projects-list h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1.75em;
-  margin: 30px auto 0 auto;
-  padding: 30px;
-  line-height: 2.5;
-  color: red;
+  /*font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;*/
+  /*font-size: 1.75em;*/
+  margin: 10px auto 10px auto;
+  padding: 15px;
+  /*line-height: 2.5;*/
+  color: yellow;
 }
 
 .projects-list h4 {
-  font-size: 1.25em;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.75em;
   color: white;
   padding-bottom: 10px;
 }
 
-.projects-list img {
-  border-radius: 20%;
-  max-width: 500px;
-  max-height: 350px;
-  padding: 0 30px 30px 30px;
+img {
+  border-radius: 5%;
+  width: 300px;
+  height: 170px;
+  margin: 0 auto 30px auto;
 }
 
 .projects-list p {
-  margin: auto;
-  padding: 0px 30px 30px 30px;
+  margin: 0 auto 30px auto;
+  /*padding: 0px 30px 30px 30px;*/
   max-width: 750px;
+  font-size: 16px;
 }
 
 .craft-intro-list {
   display: flex;
   flex-direction: column;
+  color: #fbc44a;
+  margin: 0 0 30px 0;
 }
 
 .links h5 a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
   text-decoration: none;
   color: white;
 }
@@ -60,5 +69,69 @@
 
 .links h5 a:hover {
   text-decoration: none;
-  color: #54F7AE;;
+  color: #54F7AE;
+}
+
+
+@media (max-width: 1030px) {
+  .projects-list {
+    padding: 60px 15px;
+  }
+}
+
+@media (max-width: 600) {
+  .links h5 a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .projects-list h2 {
+    font-size: 210%;
+  }
+  .projects-list h3 {
+    font-size: 210%;
+  }
+  .projects-list h4 {
+    font-size: 1.6em;
+  }
+  .links h5 a {
+    font-size: 18px;
+  }
+  .projects-list p {
+    margin: 0 20px 30px 20px;
+    /*padding: 0px 30px 30px 30px;*/
+    max-width: 550px;
+    font-size: 14px;
+  }
+  img {
+    /*border-radius: 20%;*/
+    width: 400px;
+    height: 300px;
+    /*padding: 0 30px 30px 30px;*/
+  }
+}
+
+@media (max-width: 400) {
+  .links h5 a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .projects-list h2 {
+    font-size: 1.75em;
+  }
+  .projects-list h3 {
+    font-size: 1.75em;
+  }
+  .projects-list h4 {
+    font-size: 1.3em;
+  }
+  .links h5 a {
+    font-size: 16px;
+  }
+  .projects-list p {
+    font-size: 12px;
+  }
 }

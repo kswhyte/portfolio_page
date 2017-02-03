@@ -2,17 +2,15 @@
 .contact {
   max-height: 800px;
   font-family: 'Oswald', sans-serif;
+  font-size: 26px;
   background: url('../images/ocean-mist.jpeg') no-repeat center center fixed;
   background-size: cover;
   line-height: 2;
   padding: 100px;
-  font-size: 26px;
   display: block;
-
   text-align: center;
-  /*margin: auto;*/
 }
-
+/*
 .contact li i {
   padding: 30 0 0 0;
   text-decoration: none;
@@ -20,11 +18,12 @@
   color: white;
   font-size: 30px;
   display: inline-block;
-}
+}*/
 
-.mail {
+img.mail {
   color: white;
-  height: 25px;
+  width: 60px;
+  height: 60px;
   padding: 30px 0 0 0;
   display: inline-block;
 }
@@ -33,23 +32,20 @@
   color: #54F7AE;
 }
 
-.phone {
+img.phone {
   color: white;
   fill: currentColor;
-  height: 25px;
+  height: 60px;
+  width: 60px;
   display: inline-block;
 }
-
-/*.phone p {
-  color: white;
-}*/
 
 img.contact {
   width: 200px;
   height: 300px;
   padding: 30px 0px;
   margin: auto;
-  left: 0
+  left: 0;
   position: center;
   display: block;
 }
@@ -63,12 +59,11 @@ h2.contact {
 }
 
 img.healing-staff {
-  /*background: #54F7AE;*/
   width: 120px;
   height: 220px;
   padding: 0 30px;
   margin: auto;
-  left: 0
+  left: 0;
   position: left;
   display: inline-block;
 }
@@ -89,4 +84,59 @@ img.healing-staff {
   list-style-type: none;
   padding: 0px 0 30px 0;
   margin: auto;
+}
+
+@media (max-width: 820px) {
+  .contact {
+    font-size: 24px;
+    padding: 100px 0;
+  }
+  img.healing-staff {
+    width: 105px;
+    height: 205px;
+  }
+  img.mail {
+    width: 55px;
+    height: 55px;
+  }
+  img.phone {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+@media (max-width: 620px) {
+  .contact {
+    font-size: 22px;
+  }
+  img.healing-staff {
+    width: 90px;
+    height: 190px;
+  }
+  img.mail {
+    width: 50px;
+    height: 50px;
+  }
+  img.phone {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .contact {
+    font-size: 20px;
+  }
+  img.healing-staff {
+    width: 75px;
+    height: 175px;
+  }
+  img.mail {
+    width: 45px;
+    height: 45px;
+  }
+  img.phone {
+    height: 45px;
+    width: 45px;
+  }
 }

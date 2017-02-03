@@ -1,0 +1,22 @@
+{
+  "name": "profile_page",
+  "version": "1.0.0",
+  "description": "A portfolio page for my software projects",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kswhyte/portfolio_page.git"
+  },
+  "author": "Kinan Whyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kswhyte/portfolio_page/issues"
+  },
+  "homepage": "https://github.com/kswhyte/portfolio_page#readme",
+  "dependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}

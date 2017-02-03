@@ -43,7 +43,7 @@
 footer {
   text-align: center;
   padding: 20px;
-  background-color: black;
+  background-color: #1A1A1A;
   height: 75px;
 }
 
@@ -60,23 +60,23 @@ footer a {
 
 /*hover for social media icons:*/
 footer li:hover .icon-github {
-  color: purple;
+  color: #634E8B;
 }
 
 footer li:hover .icon-linkedin2 {
-  color: #FFA60D;
+  color: #1B86BC;
 }
 
 footer li:hover .icon-twitter {
-  color: #00B0EB;
+  color: #1DA1F2;
 }
 
 footer li:hover .icon-facebook {
-  color: #FF534A;
+  color: #3B5998;
 }
 
 footer li:hover .icon-instagram {
-  color: #36F5AF;
+  color: #FF534A;
 }
 
 .copyright {
@@ -119,7 +119,6 @@ footer li:hover .icon-instagram {
   }
 
   footer {
-    /*display: flex;*/
     padding: 10px;
     height: 65px;
   }
@@ -138,8 +137,4 @@ footer li:hover .icon-instagram {
     font-size: 12px;
     margin: -15px 30px;
   }
-
-  /*.email {
-    font-size: 12px;
-  }*/
 }

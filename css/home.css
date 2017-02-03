@@ -9,33 +9,73 @@
   background-size: cover;
 }
 
-#kw-logo {
-  border-radius: 50%;
+#kw-big-logo {
+  background: url("../images/kw-logo-white.png") no-repeat;
+  background-size: 400px 400px;
+  height: 400px;
+  width: 400px;
+  text-indent: -9999px;
   margin: auto;
-  max-width: 400px;
-  max-height: 400px;
-  -webkit-transition: width 3s, height 3s, background-color 3s, -webkit-transform 3s;
 }
 
-#kw-logo:hover {
-  background: #d0d0d0;
-  z-index: 1;
-  border-radius: 50%;
-  transform: rotate(180deg) rotateY(180deg);
+#kw-big-logo:hover {
+  background: url("../images/kw-logo-gradient.png") no-repeat;
+  background-size: 400px 400px;
+  height: 400px;
+  width: 400px;
+  /*-webkit-transform: rotate(0deg);*/
+  transition: all 3s ease-in-out;
+  transform: rotate(360deg) rotateY(180deg);
   transition-timing-function: ease;
-  -ms-filter: "FlipV" "FlipH";
 }
 
 @media (max-width: 1030px) {
-  #kw-logo {
-    max-width: 350px;
-    max-height: 350px;
+  #kw-big-logo {
+    background-size: 350px 350px;
+    height: 350px;
+    width: 350px;
+  }
+  #kw-big-logo:hover {
+    background-size: 350px 350px;
+    height: 350px;
+    width: 350px;
   }
 }
 
 @media (max-width: 730px) {
-  #kw-logo {
-    max-width: 300px;
-    max-height: 300px;
+  #kw-big-logo {
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+  }
+  #kw-big-logo:hover {
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 530px) {
+  #kw-big-logo {
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+  }
+  #kw-big-logo:hover {
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+  }
+
+@media (max-width: 330px) {
+  #kw-big-logo {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
+  }
+  #kw-big-logo:hover {
+    background-size: 200px 200px;
+    height: 200px;
+    width: 200px;
   }
 }
