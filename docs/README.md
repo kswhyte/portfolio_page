@@ -2,10 +2,6 @@
 
 A personal site represents you, your personal brand, and is a fantastic opportunity to make a great first impression. For this project, I focused on how to structure both my content and my HTML & CSS. It was important that my site have clear, easy to find content that provides a solid overview of my personality, my skills, and my background.
 
-<img width="1274" alt="screen shot 2017-01-11 at 10 08 00 pm" src="https://cloud.githubusercontent.com/assets/13802107/21877763/95220830-d84a-11e6-93b8-5da631d0f6f5.png">
-
-<img width="1245" alt="screen shot 2017-01-11 at 10 10 12 pm" src="https://cloud.githubusercontent.com/assets/13802107/21877802/da69263a-d84a-11e6-8e44-fa7deec17337.png">
-
 ---
 ###This site was intended to be:
 
